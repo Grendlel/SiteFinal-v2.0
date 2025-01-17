@@ -13,7 +13,8 @@ export const SHeader = styled.header`
     display: flex;
     align-items: center;
     img {
-      padding: 0.3rem;
+      width: 6rem;
+
     }
   }
 `

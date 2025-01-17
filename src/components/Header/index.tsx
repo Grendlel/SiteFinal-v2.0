@@ -11,7 +11,7 @@ export function Header() {
       <NavBar>
         <div>
           <Link to="/">Início</Link>
-          <Link to="/comentario">Comentário</Link>
+          <Link to="/comentario">Downloads</Link>
         </div>
       </NavBar>
     </SHeader>

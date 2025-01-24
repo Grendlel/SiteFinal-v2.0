@@ -13,6 +13,8 @@ export function Header() {
         <div>
           <Link to="/">Início</Link>
           <Link to="/comentario">Downloads</Link>
+          <Link to="/cadastrar">Cadastrar</Link>
+          <Link to="/login">login</Link>
         </div>
       </NavBar>
     </SHeader>

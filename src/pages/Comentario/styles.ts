@@ -1,6 +1,10 @@
 import styled from 'styled-components'
 
 export const Section = styled.section`
+  min-height: calc(100vh - 8.5rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   display: grid;
   grid-template-columns: auto auto auto auto;
   gap: 1rem;

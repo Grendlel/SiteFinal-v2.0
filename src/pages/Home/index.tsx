@@ -5,7 +5,7 @@ import img2 from "../../assets/crmsmsky.png"
 export function Home() {
   return (
     <Section>
-      <h1>Bem vindo!</h1>
+      <h1>Bem vindo ao Grendel's WMP Skins!</h1>
     </Section>
   )
 }

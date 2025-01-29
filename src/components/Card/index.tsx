@@ -1,24 +1,25 @@
 import { Section } from "./styles";
 export interface ICard {
   data: string
-  assunto: string
-  comentario: string
+  titulo: string
+  tamanho: string
+  img: string
 }
-export const Card = ({ data, assunto, comentario }: ICard) => {
+export const Card = ({ data, titulo, tamanho, img }: ICard) => {
   return (
     <Section>
+      <aside>
+        <p>{titulo}</p>
+      </aside>
       <aside>
         <h5>Data:</h5>
         <p>{data}</p>
       </aside>
       <aside>
-        <h5>Assunto:</h5>
-        <p>{assunto}</p>
+        <h5>Size:</h5>
+        <p>{tamanho}</p>
       </aside>
-      <aside>
-        <h5>Comentário:</h5>
-        <p>{comentario}</p>
-      </aside>
+      <img src={img} alt="Skins" />
     </Section>
   );
 };

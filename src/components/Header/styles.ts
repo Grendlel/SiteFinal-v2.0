@@ -1,5 +1,4 @@
 import styled from "styled-components"
-
 import { colors } from "../../styles/GlobalStyle"
 
 export const SHeader = styled.header`
@@ -11,19 +10,20 @@ export const SHeader = styled.header`
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,118,38,1) 29%, rgba(0,212,255,1) 100%);
   border-bottom: 0.5rem solid rgba(22,1,36,0.5);
   height: 5rem;
-  figure {
+  img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    img {
-      padding-top: 1rem;
-      width: 10rem;
-
-    }
+    padding-top: 1rem;
+    width: 10rem;
+  }
+  h1{
+    font-size: 3rem;
+    text-shadow: -1px 0 ${colors.black}, 0 1px ${colors.secondary};
   }
 `
 
-export const NavBar = styled.nav`
+export const SNavBar = styled.nav`
   /* Navegação */
   display: flex;
   align-items: center;
@@ -31,6 +31,7 @@ export const NavBar = styled.nav`
     margin: 0 1rem;
     text-decoration: none;
     color: ${colors.black};
+    font-size: 1.5rem;
   }
   a:hover {
     font-weight: bold;

@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { colors } from "../../styles/GlobalStyle"
 
 export const Section = styled.section`
   margin: 0 auto;
@@ -6,6 +7,9 @@ export const Section = styled.section`
   display: flex;
   align-items: center;
   justify-content: center;
+  h1{
+    font-size: 5rem;
+  }
   img {
     width: 50%;
   }

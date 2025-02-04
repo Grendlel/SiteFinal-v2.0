@@ -8,6 +8,7 @@ export interface ICard {
 export const Card = ({ data, titulo, tamanho, img }: ICard) => {
   return (
     <Section>
+      <img src={img} alt="Skins" />
       <aside>
         <p>{titulo}</p>
       </aside>
@@ -19,7 +20,6 @@ export const Card = ({ data, titulo, tamanho, img }: ICard) => {
         <h5>Size:</h5>
         <p>{tamanho}</p>
       </aside>
-      <img src={img} alt="Skins" />
     </Section>
   );
 };

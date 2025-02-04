@@ -6,4 +6,8 @@ export const Section = styled.section`
   display: grid;
   grid-template-columns: auto;
   gap: 1rem;
+  img {
+      width: 100%;
+      border-radius: 1.5rem;
+    }
 `

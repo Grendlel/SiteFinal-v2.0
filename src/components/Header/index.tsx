@@ -21,7 +21,7 @@ export function Header() {
           <Link to="/comentario">Downloads</Link>
           {user ? (
             <>
-            <Link to="/adm">Sua Skin</Link>
+            <Link to="/adm">Sua Área</Link>
             <button onClick={logout}>{user.nome} <GrLogout /></button>
             </>
           ) : (

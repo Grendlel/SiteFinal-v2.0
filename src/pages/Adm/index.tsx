@@ -1,8 +1,9 @@
-import { SSection } from "./styles";
+import { SSection } from "./styles"
+import img from "../../assets/mediaplayereyes.png"
 export function Adm() {
   return (
     <SSection>
-      Área Administrativa
+      <img src={img} alt="Eyes"/>
     </SSection>
   );
 };

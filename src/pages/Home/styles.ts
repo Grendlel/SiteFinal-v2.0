@@ -8,9 +8,11 @@ export const Section = styled.section`
   align-items: center;
   justify-content: center;
   h1{
-    font-size: 5rem;
-  }
-  img {
-    width: 50%;
+    font-size: 5rem;font-size: 4rem;
+    display: flex;
+    color: ${colors.terciary};
+    margin-top: 1rem;
+    margin-left: 1rem;
+    text-shadow: -1px 0 ${colors.black}, 0 1px ${colors.primary}, 1px 0 ${colors.primary}, 0 -1px ${colors.secondary};
   }
 `

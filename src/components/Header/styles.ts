@@ -36,4 +36,12 @@ export const SNavBar = styled.nav`
   a:hover {
     font-weight: bold;
   }
+  button{
+    background-color: ${colors.primary};
+    border: 0.15rem solid ${colors.secondary};
+    border-radius: 0.2rem;
+    padding: 0.3rem;
+    font-size: 1rem;
+    margin-right: 1rem;
+  }
 `

@@ -8,7 +8,6 @@ export const Section = styled.section`
   background-color: ${colors.terciary};
   padding: 0.5rem;
   border-radius: 1.5rem;
-  margin: 0.5rem;
   margin-left: 32.5rem;
   height: 23rem;
   width: 50rem;
